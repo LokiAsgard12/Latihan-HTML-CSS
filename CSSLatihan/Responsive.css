@@ -1,0 +1,35 @@
+/* Untuk PC */
+@media all and (min-width: 1001px) {
+  .fa fa-bars menu-icon {
+    display: none !important;
+  }
+}
+
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .proyeks {
+    width: 50%;
+    margin: 0 auto;
+    padding-right: 20px;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 600px) {
+  /* Tambahkan CSS untuk header-right */
+  .header-right {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+  /* Font Top Wrapper */
+  .top-wrapper h1 {
+    font-size: 2.5em;
+  }
+  /* Tambahkan CSS untuk proyek */
+  .proyeks {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
