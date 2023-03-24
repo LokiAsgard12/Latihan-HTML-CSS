@@ -30,7 +30,11 @@ footer {
 }
 /* Nav Bar */
 .header-left {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   float: left;
+  justify-content: space-between;
   margin-top: 0.3rem;
   padding: 15px auto;
 }
@@ -39,12 +43,7 @@ footer {
   color: white;
   letter-spacing: 0.3em;
 }
-.header-right {
-  float: right;
-  margin: 0.5rem;
-  width: fit-content;
-}
-.header-right a {
+.header-left a {
   color: #e8e2e2;
   display: block;
   padding: 0rem 0.5rem;
@@ -53,12 +52,24 @@ footer {
 ul {
   padding-inline-start: 0px;
 }
-.header-right ul li {
+.header-left ul li {
   display: inline-block;
   list-style: none;
+  margin-left: 0.5rem;
 }
-.header-right a:hover {
+.header-left li {
+  padding-top: 0.3rem;
+}
+.header-left a:hover {
   background-color: grey;
+}
+.menu-icon {
+  padding: 7px 0 !important;
+}
+.header-right {
+  float: right;
+  margin: 0.5rem;
+  width: fit-content;
 }
 .fa fa-bars menu-icon {
   margin: 0;
@@ -114,7 +125,7 @@ ul {
 }
 .proyeks {
   float: left;
-  margin: 0 3.5rem;
+  margin: 0 2.5rem;
   width: 25%;
 }
 .proyek-icon {
