@@ -5,19 +5,25 @@
   }
 }
 
+.proyeks {
+  float: left;
+  margin: 0 2.5rem;
+  margin-left: 4rem;
+  width: 25%;
+}
 /* Untuk Tablet */
-@media all and (max-width: 1000px) {
+@media all and (max-width: 1200px) {
   .proyeks {
     width: 50%;
     margin: 0 auto;
-    padding-right: 20px;
+    padding: 0 20px;
   }
 }
 
 /* Untuk Smartphone */
 @media all and (max-width: 600px) {
   /* Tambahkan CSS untuk header-right */
-  .header-right {
+  .header-left ul {
     display: none;
   }
   .menu-icon {
@@ -29,7 +35,8 @@
   }
   /* Tambahkan CSS untuk proyek */
   .proyeks {
-    width: 100%;
     margin: 0 auto;
+    padding-left: 25px;
+    width: 100%;
   }
 }
